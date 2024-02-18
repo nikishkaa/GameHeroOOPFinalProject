@@ -18,15 +18,13 @@ public class MagicianAstrologer {
     public int maxEquipWeight; // макс вес снаряжения
 
 
-
-
-    public MagicianAstrologer(){
+    public MagicianAstrologer() {
         name = "Magician astrologer";
         alive = true;
         health = 100;
         level = 6;
         healthPoint = 9;
-        magicPoint = 0;
+        magicPoint = 10;
         intelligence = 15;
         durability = 9;
         force = 8;
@@ -36,6 +34,10 @@ public class MagicianAstrologer {
         witchcraft = 9;
         maxEquipWeight = 40;
 
+    }
+
+    public MagicianAstrologer(String name) {
+        this.name = name;
     }
 
 }

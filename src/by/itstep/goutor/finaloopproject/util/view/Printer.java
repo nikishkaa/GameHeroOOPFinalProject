@@ -1,4 +1,4 @@
-package by.itstep.goutor.finaloopproject.util;
+package by.itstep.goutor.finaloopproject.util.view;
 
 public class Printer {
     public static void print(StringBuilder builder) {
