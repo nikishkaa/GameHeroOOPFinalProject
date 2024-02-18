@@ -7,6 +7,7 @@ public class Main {
 
         MagicianAstrologer first = new MagicianAstrologer();
 
+
         System.out.println();
     }
 }
