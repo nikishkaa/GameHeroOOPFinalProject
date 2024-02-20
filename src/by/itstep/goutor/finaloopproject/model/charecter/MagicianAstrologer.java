@@ -34,6 +34,7 @@ public class MagicianAstrologer {
         witchcraft = 9;
         maxEquipWeight = 40;
 
+
     }
 
     public MagicianAstrologer(String name) {
