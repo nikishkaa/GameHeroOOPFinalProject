@@ -4,7 +4,6 @@ import by.itstep.goutor.finaloopproject.model.charecter.MagicianAstrologer;
 import by.itstep.goutor.finaloopproject.model.charecter.Person;
 import by.itstep.goutor.finaloopproject.model.logic.PersonManager;
 
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,10 +17,9 @@ public class Main {
 
         Person[] persons = new Person[]{magicianAstrologer1, magicianAstrologer2};
 
-        Person[] level = PersonManager.getBiggestLevelPerson(persons);
+        int allLevel = PersonManager.getAllPersonLevel(persons);
 
 
-
-        System.out.println(Arrays.toString(level));
+        System.out.println(allLevel + "");
     }
 }
