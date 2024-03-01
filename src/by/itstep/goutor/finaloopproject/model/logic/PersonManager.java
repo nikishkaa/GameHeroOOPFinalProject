@@ -2,6 +2,7 @@ package by.itstep.goutor.finaloopproject.model.logic;
 
 import by.itstep.goutor.finaloopproject.model.charecter.Person;
 
+
 public class PersonManager {
     public static Person[] getBiggestLevelPerson(Person[] persons) {
 
@@ -11,13 +12,10 @@ public class PersonManager {
 
         Person[] level = persons;
 
-        for (int i = 0; i < persons.length; i++) {
 
 
 
-        }
 
-
-        return level;
+        return persons;
     }
 }
