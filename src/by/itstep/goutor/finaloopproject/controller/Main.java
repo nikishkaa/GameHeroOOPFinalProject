@@ -17,9 +17,10 @@ public class Main {
 
         Person[] persons = new Person[]{magicianAstrologer1, magicianAstrologer2};
 
+
         int allLevel = PersonManager.getAllPersonLevel(persons);
 
-
         System.out.println(allLevel + "");
+        System.out.println(magicianAstrologer1);
     }
 }

@@ -10,17 +10,22 @@ public class MagicianAstrologer extends Person {
 
     public MagicianAstrologer(String name, boolean alive, int health, int level, int force) {
         super(name, alive, health, level, force);
+        this.name = name;
+        this.alive = alive;
+        this.health = health;
+        this.level = level;
+        this.force = force;
     }
 
 
     @Override
     public String toString() {
         return "MagicianAstrologer{" +
-                "name='" + name + '\'' +
-                ", alive=" + alive +
-                ", health=" + health +
-                ", level=" + level +
-                ", force=" + force +
+                "name = '" + name + '\'' +
+                ", alive = " + alive +
+                ", health = " + health +
+                ", level = " + level +
+                ", force = " + force +
                 '}';
     }
 
