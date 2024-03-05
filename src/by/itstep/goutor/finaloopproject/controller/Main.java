@@ -20,6 +20,9 @@ public class Main {
 
         int allLevel = PersonManager.getAllPersonLevel(persons);
 
+        Person pow = PersonManager.getMorePowerPerson(persons);
+
+
         System.out.println(allLevel + "");
         System.out.println(magicianAstrologer1);
     }

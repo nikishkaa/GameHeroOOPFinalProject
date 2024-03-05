@@ -33,6 +33,19 @@ public class PersonManager {
     }
 
 
+    public static Person getMorePowerPerson(Person[] persons) {
 
+        if (persons == null || persons.length == 0) {
+            return null;
+        }
+
+        Person pow = persons[1];
+
+
+
+
+
+        return pow;
+    }
 
 }
