@@ -3,6 +3,8 @@ package by.itstep.goutor.finaloopproject.controller;
 import by.itstep.goutor.finaloopproject.model.charecter.MagicianAstrologer;
 import by.itstep.goutor.finaloopproject.model.charecter.Person;
 import by.itstep.goutor.finaloopproject.model.logic.PersonManager;
+import by.itstep.goutor.finaloopproject.util.UI.PersonUI;
+import by.itstep.goutor.finaloopproject.util.view.Printer;
 
 
 public class Main {
@@ -23,7 +25,10 @@ public class Main {
         Person pow = PersonManager.getMorePowerPerson(persons);
 
 
-        System.out.println(allLevel + "");
+        System.out.println(allLevel + " - All Person Level");
         System.out.println(magicianAstrologer1);
+
+
+        Printer.print(PersonUI.getUserUI());
     }
 }
