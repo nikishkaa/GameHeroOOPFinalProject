@@ -7,7 +7,7 @@ import org.junit.Assert;
 
 public class PersonTest {
     @Test
-    public void allLevelTest() {
+    public void testAllLevel() {
 
         MagicianAstrologer magicianAstrologer1 =
                 new MagicianAstrologer("1", true, 100, 50, 20);
