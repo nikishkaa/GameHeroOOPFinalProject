@@ -15,8 +15,8 @@ public class PersonTest {
         MagicianAstrologer magicianAstrologer2 =
                 new MagicianAstrologer("2", true, 100, 40, 10);
 
-
         Person[] persons = new Person[]{magicianAstrologer1, magicianAstrologer2};
+
 
         int expected = 90;
 

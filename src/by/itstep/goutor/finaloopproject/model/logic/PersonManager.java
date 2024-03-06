@@ -16,6 +16,7 @@ public class PersonManager {
         return persons;
     }
 
+    // O(N)
     public static int getAllPersonLevel(Person[] persons) {
 
         if (persons == null || persons.length == 0) {
@@ -40,9 +41,6 @@ public class PersonManager {
         }
 
         Person pow = persons[1];
-
-
-
 
 
         return pow;
