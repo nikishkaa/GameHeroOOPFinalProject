@@ -27,10 +27,6 @@ public class Main {
 
 
 
-        System.out.println(allLevel + " - All Person Level");
-        System.out.println(Arrays.toString(persons));
-
-
-        Printer.print(PersonUI.getUserUI());
+        Printer.print(PersonUI.getUserUI(persons,allLevel));
     }
 }
