@@ -16,15 +16,65 @@ public class MagicianAstrologer extends Person {
         this.level = level;
         this.force = force;
     }
-    public  MagicianAstrologer(){
+
+    public MagicianAstrologer() {
 
     }
 
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public boolean isAlive() {
+        return alive;
+    }
+
+    @Override
+    public int getHealth() {
+        return health;
+    }
+
+    @Override
+    public int getLevel() {
+        return level;
+    }
+
+    @Override
+    public int getForce() {
+        return force;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void setAlive(boolean alive) {
+        this.alive = alive;
+    }
+
+    @Override
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    @Override
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    @Override
+    public void setForce(int force) {
+        this.force = force;
+    }
 
     @Override
     public String toString() {
         return "MagicianAstrologer{" +
-                "name = '" + name + '\'' +
+                "name = " + name +
                 ", alive = " + alive +
                 ", health = " + health +
                 ", level = " + level +
