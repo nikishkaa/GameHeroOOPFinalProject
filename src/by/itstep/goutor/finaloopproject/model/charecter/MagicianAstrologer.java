@@ -16,6 +16,9 @@ public class MagicianAstrologer extends Person {
         this.level = level;
         this.force = force;
     }
+    public  MagicianAstrologer(){
+
+    }
 
 
     @Override

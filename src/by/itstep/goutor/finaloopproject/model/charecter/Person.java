@@ -15,6 +15,10 @@ public class Person {
         this.force = force;
     }
 
+    public Person() {
+
+    }
+
     public String getName() {
         return name;
     }

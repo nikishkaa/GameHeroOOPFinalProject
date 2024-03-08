@@ -2,23 +2,31 @@ package by.itstep.goutor.finaloopproject.model.logic;
 
 import by.itstep.goutor.finaloopproject.model.charecter.MagicianAstrologer;
 import by.itstep.goutor.finaloopproject.model.charecter.Person;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.Assert;
 
 public class PersonTest {
+    public static Person person1;
+    public static Person person2;
+    public static Person[] persons;
+
+    @Before
+    public void initArrayPersons() {
+        person1 = new Person();
+        person1.setLevel(50);
+
+        person2 = new Person();
+        person2.setLevel(100);
+
+        persons = new Person[]{person1, person2};
+    }
+
     @Test
     public void testAllLevel() {
 
-        MagicianAstrologer magicianAstrologer1 =
-                new MagicianAstrologer("1", true, 100, 50, 20);
 
-        MagicianAstrologer magicianAstrologer2 =
-                new MagicianAstrologer("2", true, 100, 40, 10);
-
-        Person[] persons = new Person[]{magicianAstrologer1, magicianAstrologer2};
-
-
-        int expected = 90;
+        int expected = 150;
 
         int actual = PersonManager.getAllPersonLevel(persons);
 
