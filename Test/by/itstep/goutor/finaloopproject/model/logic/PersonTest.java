@@ -41,7 +41,7 @@ public class PersonTest {
     }
 
     @Test
-    public void testNullPerson() {
+    public void testNullPersonInAllLevel() {
         persons = null;
 
         int expected = -1;
@@ -53,7 +53,7 @@ public class PersonTest {
 
 
     @Test
-    public void testNullLengthArray() {
+    public void testNullLengthArrayPersonInAllLevel() {
         Person[] nullLengthPerson = new Person[0];
 
         int expected = -1;
@@ -62,5 +62,17 @@ public class PersonTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void testNullMagicianAstrologerInAllLevel() {
+        Person[] nullMagicianAstrologer = new Person[]{null};
+
+        int expected = -1;
+
+        int actual = PersonManager.getAllPersonLevel(nullMagicianAstrologer);
+
+        assertEquals(expected, actual);
+    }
+
 
 }
