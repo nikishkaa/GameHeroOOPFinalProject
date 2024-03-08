@@ -63,7 +63,9 @@ public class MagicianAstrologer extends Person {
 
     @Override
     public void setLevel(int level) {
-        this.level = level;
+        if (level >= 0) {
+            this.level = level;
+        }
     }
 
     @Override
