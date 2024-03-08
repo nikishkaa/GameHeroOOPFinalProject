@@ -4,7 +4,7 @@ import by.itstep.goutor.finaloopproject.model.charecter.MagicianAstrologer;
 import by.itstep.goutor.finaloopproject.model.charecter.Person;
 import by.itstep.goutor.finaloopproject.model.logic.PersonManager;
 import by.itstep.goutor.finaloopproject.util.UI.PersonUI;
-import by.itstep.goutor.finaloopproject.util.view.Printer;
+import by.itstep.goutor.finaloopproject.view.Printer;
 
 import java.util.Arrays;
 
