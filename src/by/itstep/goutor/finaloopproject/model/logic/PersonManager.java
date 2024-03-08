@@ -19,7 +19,8 @@ public class PersonManager {
     // O(N)
     public static int getAllPersonLevel(Person[] persons) {
 
-        if (persons == null || persons.length == 0) {
+        if (persons == null || persons.length == 0
+                || getNullMagicianAstrologer(persons) == -1) {
             return -1;
         }
 
@@ -32,18 +33,19 @@ public class PersonManager {
 
         return allLevel;
     }
+        //O(N)
+    private static int getNullMagicianAstrologer(Person[] persons) {
+        int stat = 0;
 
-
-    public static Person getMorePowerPerson(Person[] persons) {
-
-        if (persons == null || persons.length == 0) {
-            return null;
+        for (Person person : persons) {
+            if (person == null) {
+                stat = -1;
+                break;
+            }
         }
 
-        Person pow = persons[1];
-
-
-        return pow;
+        return stat;
     }
+
 
 }

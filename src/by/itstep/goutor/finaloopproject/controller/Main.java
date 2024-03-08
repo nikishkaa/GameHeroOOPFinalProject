@@ -18,13 +18,13 @@ public class Main {
         MagicianAstrologer magicianAstrologer2 =
                 new MagicianAstrologer("2", true, 100, 40, 10);
 
+        MagicianAstrologer magicianAstrologer3 = null;
 
-        Person[] persons = new Person[]{magicianAstrologer1, magicianAstrologer2};
+        Person[] persons = new Person[]{magicianAstrologer1, magicianAstrologer2,magicianAstrologer3};
 
 
         int allLevel = PersonManager.getAllPersonLevel(persons);
 
-        Person pow = PersonManager.getMorePowerPerson(persons);
 
 
         System.out.println(allLevel + " - All Person Level");
