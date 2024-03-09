@@ -6,8 +6,6 @@ import by.itstep.goutor.finaloopproject.model.logic.PersonManager;
 import by.itstep.goutor.finaloopproject.util.UI.PersonUI;
 import by.itstep.goutor.finaloopproject.view.Printer;
 
-import java.util.Arrays;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -18,9 +16,8 @@ public class Main {
         MagicianAstrologer magicianAstrologer2 =
                 new MagicianAstrologer("2", true, 100, 40, 10);
 
-        MagicianAstrologer magicianAstrologer3 = null;
 
-        Person[] persons = new Person[]{magicianAstrologer1, magicianAstrologer2,magicianAstrologer3};
+        Person[] persons = new Person[]{magicianAstrologer1, magicianAstrologer2};
 
 
         int allLevel = PersonManager.getAllPersonLevel(persons);
