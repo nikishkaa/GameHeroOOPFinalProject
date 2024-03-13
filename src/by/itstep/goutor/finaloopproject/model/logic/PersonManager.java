@@ -34,6 +34,7 @@ public class PersonManager {
         return allLevel;
     }
 
+
     //O(N)
     private static int getNullMagicianAstrologer(Person[] persons) {
         int stat = 0;
