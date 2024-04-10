@@ -9,7 +9,23 @@ import by.itstep.goutor.finaloopproject.view.Printer;
 
 public class Main {
     public static void main(String[] args) {
-
+/*
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+        !!!!!!!!!!!!!! NEW VERSION https://github.com/nikishkaa/GameHerooOOPFinalProjectVersion2.git  !!!!!!!!!!!!
+*/
         MagicianAstrologer magicianAstrologer1 =
                 new MagicianAstrologer("1", true, 100, 50, 20);
 
